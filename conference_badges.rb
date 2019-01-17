@@ -23,7 +23,7 @@ room_assign
 end
 
 def printer(list_of_names)
-  first_out = batch_badge_creator(array_of_names)
+  first_out = batch_badge_creator(list_of_names)
   first_out.each{|x| puts("#{x}")}
 
 
