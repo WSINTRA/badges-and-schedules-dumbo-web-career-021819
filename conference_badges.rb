@@ -16,7 +16,7 @@ def assign_rooms(array_of_names)
     room_list.each{|y|
       room_assign.push("Hello, #{x}! You'll be assigned to room #{y}!")
       }}
-
+room_assign
 end
 
 def printer
