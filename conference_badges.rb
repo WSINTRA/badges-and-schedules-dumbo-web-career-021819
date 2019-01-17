@@ -26,7 +26,7 @@ def printer(list_of_names)
   badges = []
   rooms = []
   puts(batch_badge_creator(list_of_names))
-  rooms.push(assign_rooms(list_of_names))
+  
 
 end
 #puts(assign_rooms(["jill","Bill","Dill"]))
