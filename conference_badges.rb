@@ -6,3 +6,6 @@ array_of_names.each {|x|names_msg.push("Hello, my name is #{x}.")
   }
   names_msg
 end
+def badge_maker(name)
+  puts("Hello my name is #{name}.")
+end
