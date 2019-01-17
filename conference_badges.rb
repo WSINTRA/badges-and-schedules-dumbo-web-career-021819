@@ -21,3 +21,4 @@ end
 
 def printer
 end
+puts(assign_rooms(["jill","Bill","Dill"]))
