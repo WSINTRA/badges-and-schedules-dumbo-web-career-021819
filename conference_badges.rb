@@ -18,9 +18,10 @@ def assign_rooms(array_of_names)
 
       room_assign.push("Hello, #{x}! You'll be assigned to room #{room_count}!")
       }
+
 room_assign
 end
 
 def printer
 end
-puts(assign_rooms(["jill","Bill","Dill"]))
+#puts(assign_rooms(["jill","Bill","Dill"]))
