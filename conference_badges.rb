@@ -24,6 +24,8 @@ end
 
 def printer(list_of_names)
   first_out = batch_badge_creator(list_of_names)
+  second_out = assign_rooms(list_of_names)
+  first_out.concat(second_out)
   first_out.each{|x| puts("#{x}")}
 
 
