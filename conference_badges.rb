@@ -11,11 +11,13 @@ def badge_maker(name)
 end
 def assign_rooms(array_of_names)
   room_list = [1,2,3,4,5,6,7]
+  room_count = 0
   room_assign = []
   array_of_names.each {|x|
-    room_list.each{|y|
-      room_assign.push("Hello, #{x}! You'll be assigned to room #{y}!")
-      }}
+    room_count += 1
+
+      room_assign.push("Hello, #{x}! You'll be assigned to room #{room_count}!")
+      }
 room_assign
 end
 
