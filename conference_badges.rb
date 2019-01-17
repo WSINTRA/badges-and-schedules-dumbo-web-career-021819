@@ -4,7 +4,7 @@ def batch_badge_creator(array_of_names)
   array_of_names.each {|x|
     names_msg.push("Hello, my name is ${x}")
   }
-  end
+  
 end
 
 batch_badge_creator(["jill","Bill"])
