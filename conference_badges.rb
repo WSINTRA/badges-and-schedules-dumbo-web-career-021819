@@ -9,4 +9,4 @@ def batch_badge_creator(array_of_names)
 end
 
 batch_badge_creator(["jill","Bill"])
-names_msg
+puts(names_msg)
